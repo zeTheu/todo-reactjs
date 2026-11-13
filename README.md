@@ -1,16 +1,24 @@
-# React + Vite
+O projeto será uma revisão dos conceitos aprendidos até o momento sobre ReactJs e aplicados em um pequeno projeto de To-Do List.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Como rodar o projeto: "npm install" e "npm run dev".
 
-Currently, two official plugins are available:
+Status do projeto:
+- ETAPA 0: apenas criado o projeto no Vite e subido para o repositório no GitHub.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+1) Nível atual
+- Iniciante avançando, vindo de JS puro, estudando desde 03/11/2026.
+- Os erros vêm mais de fundamentos de JS (o que um parâmetro guarda, valor contra referência, chamar contra entregar uma função) do que de React.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2) Conceitos já trabalhados
+Firmes:
+- Componentes, props e desestruturação de props
+- map com key, filter antes do map
+- useState e setter com função (setX(anterior => ...))
+- Imutabilidade: spread em array e filter, sem mutar o estado
+- Estado derivado (length, reduce), sem segundo useState
+- Elevar o estado para o pai e passar funções por prop
+- onClick com arrow function e argumento, sem executar durante o desenho
+- Git básico (status, add, commit, push)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
